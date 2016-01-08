@@ -1,0 +1,29 @@
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+ul{
+	list-style: none;
+}
+.main{
+	width:100%;
+	margin:20px auto;
+}
+.sidebar,.content{
+	padding:15px;
+	float:left;
+}
+.sidebar{
+	width:25%;
+	background: #efefef;
+}
+.content{
+	width:75%;
+	text-align: center;
+}
